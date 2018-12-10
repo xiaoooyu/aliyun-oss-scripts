@@ -21,7 +21,8 @@ ALLOWED_FILE_MIMETYPE = {
     ".ver2": "plain/text",
     ".apk": "application/vnd.android.package-archive",
     ".dmg": "application/x-apple-diskimage",
-    ".exe": "application/octet-stream"
+    ".exe": "application/octet-stream",
+    ".mp4": "video/mp4"
 }
 
 # oss config
