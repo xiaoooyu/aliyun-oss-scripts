@@ -17,6 +17,7 @@ ALLOWED_FILE_MIMETYPE = {
     ".ipa": "application/octet-stream",
     ".html": "text/html",
     ".png": "image/png",
+    ".svg": "image/svg+xml",
     ".ver": "plain/text",
     ".ver2": "plain/text",
     ".apk": "application/vnd.android.package-archive",
