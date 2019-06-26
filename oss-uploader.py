@@ -23,7 +23,8 @@ ALLOWED_FILE_MIMETYPE = {
     ".apk": "application/vnd.android.package-archive",
     ".dmg": "application/x-apple-diskimage",
     ".exe": "application/octet-stream",
-    ".mp4": "video/mp4"
+    ".mp4": "video/mp4",
+    ".mov": "video/quicktime"
 }
 
 # oss config
@@ -51,7 +52,7 @@ def upload_files_in(target, dir):
 
     for file in os.listdir(dir):
         name, ext = os.path.splitext(file)
-        
+        print name, ext
         if ALLOWED_FILE_MIMETYPE.has_key(ext):
             mime_type = ALLOWED_FILE_MIMETYPE.get(ext, "")
 
